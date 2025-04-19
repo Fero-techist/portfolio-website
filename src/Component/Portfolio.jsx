@@ -1,6 +1,7 @@
 import React from "react";
 import Ecommerce from "../assets/portfolio/Ecommerce.png";
 import Dashboard from "../assets/portfolio/Dashboard.png";
+import BlekospotlessCleaningService from "../assets/portfolio/BlekospotlessCleaningService.png";
 import elderlyImagewebsite from "../assets/portfolio/elderlyImagewebsite .png";
 import TicTacToe from "../assets/portfolio/Tic-Tac-Toe.png";
 import BankApp from "../assets/portfolio/BankApp.png";
@@ -10,15 +11,16 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      title: "Ecommerce-website",
-      src: Ecommerce,
-      livedemo: "",
+      title: "Cephas New Website",
+      src: ICTwebsite,
+      livedemo: "https://cephas-new-website.vercel.app",
     },
+
     {
       id: 2,
-      title: "A Crypto currency website",
-      src: Dashboard,
-      livedemo: "",
+      title: "Blekospotless Cleaning Service",
+      src: BlekospotlessCleaningService,
+      livedemo: "https://blekospotless-cleaning-service.vercel.app/",
     },
     {
       id: 3,
@@ -38,12 +40,11 @@ const Portfolio = () => {
       src: BankApp,
       livedemo: "",
     },
-
     {
       id: 6,
-      title: "Cephas New Website",
-      src: ICTwebsite,
-      liveDemo: "https://cephas-new-website.vercel.app",
+      title: "Ecommerce-website",
+      src: Ecommerce,
+      livedemo: "",
     },
   ];
   return (
@@ -65,7 +66,7 @@ const Portfolio = () => {
               key={id}
               className=" shadow-md shadow-gray-600 rounded-lg"
             >
-              <h3 className="text-xl text-center capitalize py-4 font-semibold text-white">
+              <h3 className="text-xl text-center font-Raleway capitalize py-4 font-semibold text-white">
                 {title}
               </h3>
 

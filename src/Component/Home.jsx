@@ -41,13 +41,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="">
-
-        </div>
+        <div className=""></div>
         <div>
           <img
             src={PortfolioImage}
-            alt="my profile"  
+            alt="my profile"
             className=" mx-auto bg-cyan-500 rounded-lg lg:max-w-full md:w-[400px] w-full"
           />
         </div>
