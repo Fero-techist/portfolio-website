@@ -1,11 +1,15 @@
 import React from "react";
+
 import Ecommerce from "../assets/portfolio/Ecommerce.png";
-import Dashboard from "../assets/portfolio/Dashboard.png";
+
 import minescope from "../assets/portfolio/minescope.png";
-import elderlyImagewebsite from "../assets/portfolio/elderlyImagewebsite .png";
+
 import skillKonnect from "../assets/portfolio/skillkonect.png";
+
 import Ceproam from "../assets/portfolio/Screenshot 2026-09-09 114935.png";
+
 import BankApp from "../assets/portfolio/BankApp.png";
+
 import BlockWebsite from "../assets/portfolio/image.png";
 
 const Portfolio = () => {
