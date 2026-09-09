@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],
-        GreatVibes: ["Great Vibes", 'cursive'],
+        GreatVibes: ["Great Vibes", "cursive"],
       },
     },
   },

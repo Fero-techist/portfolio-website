@@ -1,38 +1,40 @@
 import React from "react";
 import Ecommerce from "../assets/portfolio/Ecommerce.png";
 import Dashboard from "../assets/portfolio/Dashboard.png";
-import BlekospotlessCleaningService from "../assets/portfolio/BlekospotlessCleaningService.png";
+import minescope from "../assets/portfolio/minescope.png";
 import elderlyImagewebsite from "../assets/portfolio/elderlyImagewebsite .png";
-import TicTacToe from "../assets/portfolio/Tic-Tac-Toe.png";
+import skillKonnect from "../assets/portfolio/skillkonect.png";
+import Ceproam from "../assets/portfolio/Screenshot 2026-09-09 114935.png";
 import BankApp from "../assets/portfolio/BankApp.png";
-import ICTwebsite from "../assets/portfolio/ICT Website.png";
+import BlockWebsite from "../assets/portfolio/image.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      title: "Cephas New Website",
-      src: ICTwebsite,
-      livedemo: "https://cephas-new-website.vercel.app",
+      title: "Unity Connect Block Website",
+      src: BlockWebsite,
+      livedemo: "https://unity-connect-block-industry-lovat.vercel.app/",
     },
 
     {
       id: 2,
-      title: "Blekospotless Cleaning Service",
-      src: BlekospotlessCleaningService,
-      livedemo: "https://blekospotless-cleaning-service.vercel.app/",
+      title: "MineScope Website",
+      src: minescope,
+      livedemo: "https://minescope-nine.vercel.app/",
     },
     {
       id: 3,
-      title: "A shopping phone website for elderly",
-      src: elderlyImagewebsite,
-      livedemo: "",
+      title: "SkillKonnect360",
+      src: skillKonnect,
+      livedemo: "https://skill-konnect360-bk8k.vercel.app/",
     },
+
     {
       id: 4,
-      title: "Tic-Tac-Toe",
-      src: TicTacToe,
-      livedemo: "",
+      title: "Cephas Property Management",
+      src: Ceproam,
+      livedemo: "https://ceproam-website.vercel.app/",
     },
     {
       id: 5,

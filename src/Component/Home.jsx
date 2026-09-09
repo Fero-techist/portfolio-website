@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioImage from "../assets/PortfolioImage.png";
+import PortfolioImage from "../assets/PortfolioImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -19,10 +19,18 @@ const Home = () => {
           </h2>
 
           <p className=" text-white py-2 max-w-md font-Raleway">
-            I have 2 years of experience building dynamic frontend pages and
+            {/* I have 3 years of experience building dynamic frontend pages and
             designing software. Currently I love to work on project and also
             collaborate with source code and other developers. I work on
-            technologies like React, Javascript, Tailwind and Many more to come.
+            technologies like React, Javascript, Tailwind and Many more to come. */}
+            {/* Computer Science student and aspiring software engineer passionate
+            about building modern web applications, exploring AI, and solving
+            real-world problems through technology. Currently focused on
+            React.js, TypeScript, and growing my backend development skills. */}
+            Frontend Developer passionate about building responsive, modern, and
+            user-friendly web applications with React.js, TypeScript, and
+            JavaScript. I enjoy turning ideas into clean, functional digital
+            experiences while continuously growing my skills.
           </p>
 
           <div className=" font-Raleway">
