@@ -53,8 +53,9 @@ const SocialLinks = () => {
         {links.map(({ id, style, href, download, child }) => (
           <li
             key={id}
+            // bg-[#2F1893]
             className={
-              "flex justify-between items-center max-w-40 h-14 px-4 ml-[-100px] hover:ml-[10px] hover:rounded-md duration-300 bg-[#2F1893]  text-white" +
+              "flex justify-between items-center max-w-40 h-14 px-4 ml-[-100px] hover:ml-[10px] hover:rounded-md duration-300  bg-gradient-to-r from-cyan-500 to to-gray-700 text-white" +
               " " +
               style
             }

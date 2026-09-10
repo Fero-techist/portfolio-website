@@ -22,7 +22,7 @@ const Certificates = () => {
   return (
     <div
       name="certificate"
-      className=" bg-gradient-to-bl  py-6  from-black to-[#2F1893] w-full text-white md:min-h-screen"
+      className=" bg-gradient-to-bl  py-6  from-black to-gray-700 w-full text-white md:min-h-screen"
     >
       <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

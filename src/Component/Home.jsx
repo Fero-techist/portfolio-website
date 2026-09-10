@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioImage from "../assets/PortfolioImage.jpg";
+import PortfolioImage from "../assets/image_2_top_right(1).png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -7,13 +7,13 @@ const Home = () => {
   return (
     <div
       name="home"
-      className=" w-full h-screen bg-gradient-to-r from-black to to-[#2F1893] lg:px-0 md:px-0 px-8 py-6 text-white"
+      className=" w-full h-screen bg-gradient-to-r from-black to to-gray-700 lg:px-0 md:px-0 px-8 py-6 text-white"
     >
       <div className="mx-auto max-w-screen-lg flex flex-col items-center justify-between h-full px-4 md:flex-row">
         <div className=" flex flex-col justify-center h-full">
           <h2 className=" text-4xl sm:text-7xl font-bold font-Raleway">
             I'm a Frontend <br />
-            <span className=" text-gradient-to-r from text-cyan-500 to-blue-500">
+            <span className=" text-gradient-to-r from text-cyan-500 to-gray-700">
               Developer
             </span>
           </h2>
@@ -36,7 +36,7 @@ const Home = () => {
           <div className=" font-Raleway">
             <Link
               to="portfolio"
-              className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-b from-cyan-500 to-blue-500 cursor-pointer"
+              className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-b from-cyan-500 to-gray-700 cursor-pointer"
             >
               portfolio
               <span className=" group-hover:rotate-90 duration-300">
@@ -50,11 +50,11 @@ const Home = () => {
         </div>
 
         <div className=""></div>
-        <div>
+        <div className="  border-l-white border-2 rounded-none">
           <img
             src={PortfolioImage}
             alt="my profile"
-            className=" mx-auto bg-cyan-500 rounded-lg lg:max-w-full md:w-[400px] w-full"
+            className=" mx-auto  lg:max-w-full md:w-[400px] w-full"
           />
         </div>
       </div>

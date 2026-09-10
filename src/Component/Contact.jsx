@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className=" w-full h-full bg-gradient-to-bl py-6 from-black to bg-[#2F1893] p-4 text-white"
+      className=" w-full h-full bg-gradient-to-bl py-6 from-black to bg-gray-700 p-4 text-white"
     >
       <div className=" flex flex-col p-4 max-w-screen-lg mx-auto h-full justify-center">
         <div className=" pb-8">
@@ -43,7 +43,7 @@ const Contact = () => {
               id=""
             ></textarea>
 
-            <button className=" text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md">
+            <button className=" text-white bg-gradient-to-b from-cyan-500 to-gray-700 px-6 py-3 my-8 mx-auto flex items-center rounded-md">
               Let's Talk
             </button>
           </form>
