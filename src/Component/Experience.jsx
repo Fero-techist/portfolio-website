@@ -32,7 +32,7 @@ const Experience = () => {
       src: NODE,
       title: "Node.js",
       category: "Backend Runtime",
-      level: "Intermediate",
+      level: "Proficient",
       style: "hover:border-green-500/50 hover:shadow-green-500/20",
       accent: "text-green-400",
     },

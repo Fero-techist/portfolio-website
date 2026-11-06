@@ -4,6 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
+import ThreeHeroAnimation from "./ThreeHeroAnimation";
 
 const Home = () => {
   const resumeHref = "/Oluwaferanmi_Adegbola_Joseph_FlowCV_Resume.pdf";
@@ -13,13 +14,16 @@ const Home = () => {
       name="home"
       className="relative w-full min-h-screen flex items-center justify-center pt-28 pb-16 px-6 sm:px-10 lg:px-16 overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white"
     >
+      {/* 3D Three.js Interactive Animation Canvas */}
+      <ThreeHeroAnimation />
+
       {/* Ambient background glows */}
       <div className="absolute top-1/4 -left-40 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-1/4 -right-40 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="relative max-w-screen-xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+      <div className="relative z-10 pointer-events-none max-w-screen-xl w-full mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
         {/* Left Column: Text & CTAs */}
-        <div className="lg:col-span-7 flex flex-col justify-center text-center lg:text-left items-center lg:items-start">
+        <div className="lg:col-span-7 flex flex-col justify-center text-center lg:text-left items-center lg:items-start pointer-events-auto">
           {/* Status Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/90 border border-emerald-500/30 text-emerald-400 text-xs sm:text-sm font-medium backdrop-blur-md mb-6 shadow-md shadow-emerald-500/5">
             <span className="relative flex h-2 w-2">
@@ -118,7 +122,7 @@ const Home = () => {
         </div>
 
         {/* Right Column: Profile Presentation */}
-        <div className="lg:col-span-5 flex justify-center items-center">
+        <div className="lg:col-span-5 flex justify-center items-center pointer-events-auto">
           <div className="relative group max-w-[340px] sm:max-w-[380px] w-full">
             {/* Glowing Backdrop Ring */}
             <div className="absolute -inset-1.5 bg-gradient-to-tr from-cyan-500 via-blue-500 to-indigo-600 rounded-3xl blur-lg opacity-40 group-hover:opacity-75 transition duration-500" />
@@ -146,6 +150,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
     </section>
   );
 };

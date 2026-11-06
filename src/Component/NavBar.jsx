@@ -32,11 +32,10 @@ const NavBar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-slate-950/85 backdrop-blur-md border-b border-white/10 shadow-lg shadow-black/40 py-4"
-          : "bg-transparent py-5"
-      }`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled
+        ? "bg-slate-950/85 backdrop-blur-md  shadow-lg shadow-black/40 py-4"
+        : "bg-transparent py-5"
+        }`}
     >
       <div className="max-w-screen-xl mx-auto px-6 sm:px-10 flex justify-between items-center">
         {/* Brand / Logo */}
