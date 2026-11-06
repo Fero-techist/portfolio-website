@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
+        mono: ["'JetBrains Mono'", "monospace"],
         GreatVibes: ["Great Vibes", "cursive"],
       },
     },
