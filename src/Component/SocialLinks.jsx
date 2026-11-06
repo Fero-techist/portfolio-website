@@ -24,6 +24,7 @@ const SocialLinks = () => {
       ),
       href: "https://github.com/fero-techist",
     },
+
     {
       id: 3,
       child: (
@@ -41,7 +42,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Resume.pdf",
+      href: "/Oluwaferanmi_Adegbola_Joseph_FlowCV_Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },

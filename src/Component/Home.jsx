@@ -19,7 +19,7 @@ const Home = () => {
           </h2>
 
           <p className=" text-white py-2 max-w-md font-Raleway">
-            Computer Science student and software developer passionate about
+            Computer Science Graduate and software developer passionate about
             building modern, responsive, and user-focused web applications. I
             specialize in frontend development with React.js, JavaScript, and
             TypeScript, while expanding my backend skills with Node.js, Express,

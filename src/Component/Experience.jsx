@@ -4,6 +4,8 @@ import CSS from "../assets/CSS.jpg";
 import TAILWIND from "../assets/TAILWIND.jpg";
 import REACTJS from "../assets/react.jpg";
 import Javascript from "../assets/Javascript.png";
+import NODE from "../assets/node.png";
+import EXPRESS from "../assets/express.png";
 
 const Experience = () => {
   const techs = [
@@ -14,34 +16,46 @@ const Experience = () => {
       style: "shadow-orange-500",
     },
     {
-      id: 1,
+      id: 2,
       src: CSS,
       title: "CSS",
       style: "shadow-blue-500",
     },
     {
-      id: 1,
-      src: TAILWIND,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      id: 3,
+      src: Javascript,
+      title: "Javascript",
+      style: "shadow-yellow-600",
     },
     {
-      id: 1,
+      id: 4,
       src: REACTJS,
       title: "ReactJs",
       style: "shadow-blue-600",
     },
     {
-      id: 1,
-      src: Javascript,
-      title: "Javascript",
-      style: "shadow-yellow-600",
+      id: 5,
+      src: TAILWIND,
+      title: "Tailwind",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 6,
+      src: NODE,
+      title: "Node JS",
+      style: "shadow-green-500",
+    },
+    {
+      id: 7,
+      src: EXPRESS,
+      title: "Express JS",
+      style: "shadow-gray-400",
     },
   ];
   return (
     <div
       name="experience"
-      className=" bg-gradient-to-bl from-gray-700  py-6 to-black w-full h-screen"
+      className=" bg-gradient-to-bl from-gray-700  py-6 to-black w-full min-h-screen"
     >
       <div className=" max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -60,7 +74,7 @@ const Experience = () => {
               <img
                 className=" w-20 mx-auto"
                 src={src}
-                alt=""
+                alt={title}
               />
               <p>{title}</p>
             </div>

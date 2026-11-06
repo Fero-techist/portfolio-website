@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className=" w-full lg:h-screen bg-gradient-to-bl from-black to-gray-700  py-6  text-white"
+      className=" w-full lg:h-screen bg-gradient-to-bl from-black to-gray-700  py-6 text-white"
     >
       {/* <div className=" max-w-screen-lg p-4 mx-auto flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -38,8 +38,8 @@ const About = () => {
           </h1>
         </div>
 
-        <p className="text-xl mt-10 leading-relaxed">
-          I'm a Software Developer and Computer Science student passionate about
+        <p className="md:text-xl text-base mt-10 leading-relaxed">
+          I'm a Software Developer and Computer Science graduate passionate about
           building practical digital solutions that solve real-world problems.
           My strongest area is frontend development, where I work with React.js,
           JavaScript, TypeScript, and Tailwind CSS to create responsive,
@@ -50,7 +50,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl leading-relaxed">
+        <p className="md:text-xl text-base leading-relaxed">
           Beyond frontend development, I'm expanding my skills in backend
           engineering with Node.js, Express, and REST APIs, while exploring AI
           integration and data-driven applications. Through projects such as
@@ -62,7 +62,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl leading-relaxed">
+        <p className="md:text-xl text-base leading-relaxed">
           I'm always open to learning, collaborating with other developers, and
           taking on challenging opportunities that help me grow. My goal is to
           become a well-rounded software engineer, building scalable,
