@@ -27,19 +27,20 @@ const Portfolio = () => {
       src: minescope,
       livedemo: "https://minescope-nine.vercel.app/",
     },
+
     {
       id: 3,
+      title: "Cephas Property Management",
+      src: Ceproam,
+      livedemo: "https://ceproam-website.vercel.app/",
+    },
+    {
+      id: 4,
       title: "SkillKonnect360",
       src: skillKonnect,
       livedemo: "https://skill-konnect360-bk8k.vercel.app/",
     },
 
-    {
-      id: 4,
-      title: "Cephas Property Management",
-      src: Ceproam,
-      livedemo: "https://ceproam-website.vercel.app/",
-    },
     {
       id: 5,
       title: "A simple banking application",
