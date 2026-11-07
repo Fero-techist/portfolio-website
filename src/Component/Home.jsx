@@ -14,10 +14,10 @@ const Home = () => {
       name="home"
       className="relative w-full min-h-screen flex items-center justify-center pt-28 pb-16 px-6 sm:px-10 lg:px-16 overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white"
     >
-      {/* 3D Three.js Interactive Animation Canvas */}
+
       <ThreeHeroAnimation />
 
-      {/* Ambient background glows */}
+
       <div className="absolute top-1/4 -left-40 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-1/4 -right-40 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
 
@@ -33,7 +33,7 @@ const Home = () => {
             Available for full-time roles &amp; contracts
           </div>
 
-          {/* Heading */}
+
           <h1 className="text-4xl sm:text-6xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight text-white leading-[1.1] mb-6">
             Hi, I'm{" "}
             <span className="bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-500 bg-clip-text text-transparent">
@@ -45,12 +45,12 @@ const Home = () => {
             </span>
           </h1>
 
-          {/* Bio paragraph */}
+
           <p className="text-base sm:text-lg text-gray-300 max-w-2xl leading-relaxed mb-8">
             Computer Science Graduate passionate about engineering modern, responsive, and user-centric digital experiences. Specializing in frontend architecture with <strong className="text-white font-semibold">React.js</strong>, <strong className="text-white font-semibold">TypeScript</strong>, and <strong className="text-white font-semibold">Tailwind CSS</strong>, with solid backend skills in <strong className="text-white font-semibold">Node.js</strong> and <strong className="text-white font-semibold">Express</strong>.
           </p>
 
-          {/* Action Buttons */}
+
           <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mb-10 w-full sm:w-auto">
             <Link
               to="portfolio"
@@ -121,13 +121,12 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Right Column: Profile Presentation */}
         <div className="lg:col-span-5 flex justify-center items-center pointer-events-auto">
           <div className="relative group max-w-[340px] sm:max-w-[380px] w-full">
-            {/* Glowing Backdrop Ring */}
+
             <div className="absolute -inset-1.5 bg-gradient-to-tr from-cyan-500 via-blue-500 to-indigo-600 rounded-3xl blur-lg opacity-40 group-hover:opacity-75 transition duration-500" />
 
-            {/* Profile Card Container */}
+
             <div className="relative rounded-3xl overflow-hidden bg-slate-900 border border-white/10 p-2 shadow-2xl">
               <img
                 src={PortfolioImage}
@@ -135,7 +134,7 @@ const Home = () => {
                 className="w-full h-auto object-cover rounded-2xl group-hover:scale-[1.02] transition duration-500"
               />
 
-              {/* Floating Mini Tech Badge */}
+
               <div className="absolute bottom-5 left-5 right-5 bg-slate-950/80 backdrop-blur-md border border-white/10 rounded-xl p-3 flex items-center justify-between text-xs">
                 <div>
                   <p className="text-white font-semibold">Oluwaferanmi Adegbola</p>
