@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-
+import Peanut from "../assets/portfolio/peanut.png"
 import Ecommerce from "../assets/portfolio/Ecommerce.png";
 import minescope from "../assets/portfolio/minescope.png";
 import skillKonnect from "../assets/portfolio/skillkonect.png";
@@ -42,8 +42,21 @@ const Portfolio = () => {
       livedemo: "https://ceproam-website.vercel.app/",
       github: "https://github.com/fero-techist",
     },
+
+
     {
       id: 4,
+      title: "Kings Peanut",
+      category: "web",
+      description: "  A peanut wholesale and distributor website for improving business visibility and customer reach. It is a responsive website that can be accessed from any device. ",
+      src: Peanut,
+      tags: ["React.js", "Tailwind CSS", "Vercel", "Component UI"],
+      livedemo: "https://kings-peanuts.vercel.app/",
+      github: "https://github.com/fero-techist",
+    },
+
+    {
+      id: 5,
       title: "SkillKonnect360 Platform",
       category: "web",
       description: "A talent and skills discovery platform designed to connect skilled professionals with clients, featuring clean service profiles and booking workflows.",
@@ -53,7 +66,7 @@ const Portfolio = () => {
       github: "https://github.com/fero-techist",
     },
     {
-      id: 5,
+      id: 6,
       title: "Modern Banking Application",
       category: "app",
       description: "A financial dashboard prototype with balance analytics, simulated money transfers, transaction history records, and account management views.",
@@ -63,7 +76,7 @@ const Portfolio = () => {
       github: "https://github.com/fero-techist",
     },
     {
-      id: 6,
+      id: 7,
       title: "Full E-Commerce Platform",
       category: "app",
       description: "A digital storefront interface featuring product catalogs, categorized browsing, cart management, and streamlined checkout interfaces.",
@@ -110,11 +123,10 @@ const Portfolio = () => {
               <button
                 key={key}
                 onClick={() => setFilter(key)}
-                className={`px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-medium transition-all cursor-pointer ${
-                  filter === key
-                    ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/20"
-                    : "text-gray-400 hover:text-white"
-                }`}
+                className={`px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-medium transition-all cursor-pointer ${filter === key
+                  ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/20"
+                  : "text-gray-400 hover:text-white"
+                  }`}
               >
                 {label}
               </button>

@@ -1,42 +1,79 @@
 import React from "react";
 import { FaGraduationCap, FaLaptopCode, FaRocket } from "react-icons/fa";
-import { HiOutlineCode, HiOutlineServer, HiOutlineSparkles } from "react-icons/hi";
+import {
+  HiOutlineCode,
+  HiOutlineServer,
+  HiOutlineSparkles,
+} from "react-icons/hi";
 
 const About = () => {
   const highlights = [
     {
       id: 1,
-      icon: <FaGraduationCap size={24} className="text-cyan-400" />,
+      icon: (
+        <FaGraduationCap
+          size={24}
+          className="text-cyan-400"
+        />
+      ),
       title: "B.Sc. Computer Science",
-      subtitle: "Graduate with strong software engineering & algorithmic foundations.",
+      subtitle:
+        "Graduate with strong software engineering & algorithmic foundations.",
     },
     {
       id: 2,
-      icon: <FaLaptopCode size={24} className="text-blue-400" />,
+      icon: (
+        <FaLaptopCode
+          size={24}
+          className="text-blue-400"
+        />
+      ),
       title: "Full-Stack Development",
-      subtitle: "Frontend mastery in React & TypeScript with Node.js & Express backends.",
+      subtitle:
+        "Frontend mastery in React & TypeScript with Node.js & Express backends.",
     },
     {
       id: 3,
-      icon: <FaRocket size={24} className="text-indigo-400" />,
+      icon: (
+        <FaRocket
+          size={24}
+          className="text-indigo-400"
+        />
+      ),
       title: "6+ Deployed Solutions",
-      subtitle: "Real-world web apps from mineral resource systems to commercial portals.",
+      subtitle:
+        "Real-world web apps from mineral resource systems to commercial portals.",
     },
   ];
 
   const focusAreas = [
     {
-      icon: <HiOutlineCode size={22} className="text-cyan-400" />,
+      icon: (
+        <HiOutlineCode
+          size={22}
+          className="text-cyan-400"
+        />
+      ),
       title: "Frontend Architecture",
       desc: "Crafting scalable, responsive, and accessible interfaces with React, modern JavaScript/TypeScript, and Tailwind CSS.",
     },
     {
-      icon: <HiOutlineServer size={22} className="text-blue-400" />,
+      icon: (
+        <HiOutlineServer
+          size={22}
+          className="text-blue-400"
+        />
+      ),
       title: "Backend & REST APIs",
       desc: "Building clean server-side logic, routing, middleware, and API endpoints using Node.js, Express, and modern database tools.",
     },
     {
-      icon: <HiOutlineSparkles size={22} className="text-purple-400" />,
+      icon: (
+        <HiOutlineSparkles
+          size={22}
+          className="text-purple-400"
+        />
+      ),
       title: "User-Centric Innovation",
       desc: "Translating complex operational requirements into intuitive workflows, whether for enterprise property management or industrial portals.",
     },
@@ -57,7 +94,8 @@ const About = () => {
             Passionate About Building Practical Digital Solutions
           </h2>
           <p className="text-gray-400 text-base sm:text-lg">
-            A developer who bridges technical foundations with modern web craftsmanship to deliver impactful software.
+            A developer who bridges technical foundations with modern web
+            craftsmanship to deliver impactful software.
           </p>
         </div>
 
@@ -72,7 +110,9 @@ const About = () => {
                 {icon}
               </div>
               <h3 className="text-lg font-bold text-white mb-1.5">{title}</h3>
-              <p className="text-sm text-gray-400 leading-relaxed">{subtitle}</p>
+              <p className="text-sm text-gray-400 leading-relaxed">
+                {subtitle}
+              </p>
             </div>
           ))}
         </div>
@@ -85,13 +125,49 @@ const About = () => {
               Who I Am &amp; What Drives Me
             </h3>
             <p>
-              I'm a <strong className="text-white font-semibold">Software Developer</strong> and <strong className="text-white font-semibold">Computer Science graduate</strong> focused on turning ideas into functional, scalable products with clean interfaces and robust code.
+              I'm a{" "}
+              <strong className="text-white font-semibold">
+                Software Developer
+              </strong>{" "}
+              and{" "}
+              <strong className="text-white font-semibold">
+                Computer Science graduate
+              </strong>{" "}
+              focused on turning ideas into functional, scalable products with
+              clean interfaces and robust code.
             </p>
             <p>
-              My core strength is in modern frontend engineering, using <strong className="text-cyan-300 font-semibold">React.js</strong>, <strong className="text-cyan-300 font-semibold">JavaScript</strong>, <strong className="text-cyan-300 font-semibold">TypeScript</strong>, and <strong className="text-cyan-300 font-semibold">Tailwind CSS</strong> to build responsive, intuitive, and user-focused web applications.
+              My core strength is in modern frontend engineering, using{" "}
+              <strong className="text-cyan-300 font-semibold">React.js</strong>,{" "}
+              <strong className="text-cyan-300 font-semibold">
+                JavaScript
+              </strong>
+              ,{" "}
+              <strong className="text-cyan-300 font-semibold">
+                TypeScript
+              </strong>
+              , and{" "}
+              <strong className="text-cyan-300 font-semibold">
+                Tailwind CSS
+              </strong>{" "}
+              to build responsive, intuitive, and user-focused web applications.
             </p>
             <p>
-              Beyond the client-side, I engineer backend systems with <strong className="text-blue-300 font-semibold">Node.js</strong>, <strong className="text-blue-300 font-semibold">Express.js</strong>, and <strong className="text-blue-300 font-semibold">REST APIs</strong>, while exploring AI integration and data-driven systems. Through projects like <strong className="text-white font-semibold">MineScope</strong>, <strong className="text-white font-semibold">CEPROAM</strong>, and <strong className="text-white font-semibold">Unity Connect</strong>, I solve real operational challenges through code.
+              Beyond the client-side, I engineer backend systems with{" "}
+              <strong className="text-blue-300 font-semibold">Node.js</strong>,{" "}
+              <strong className="text-blue-300 font-semibold">
+                Express.js
+              </strong>
+              , and{" "}
+              <strong className="text-blue-300 font-semibold">REST APIs</strong>
+              , while exploring AI integration and data-driven systems. Through
+              projects like{" "}
+              <strong className="text-white font-semibold">MineScope</strong>,{" "}
+              <strong className="text-white font-semibold">CEPROAM</strong>, and{" "}
+              <strong className="text-white font-semibold">
+                Unity Connect
+              </strong>
+              , I solve real operational challenges through code.
             </p>
           </div>
 
@@ -109,7 +185,9 @@ const About = () => {
                   <div className="p-2 rounded-lg bg-slate-800 border border-white/5">
                     {icon}
                   </div>
-                  <h4 className="text-base font-semibold text-white">{title}</h4>
+                  <h4 className="text-base font-semibold text-white">
+                    {title}
+                  </h4>
                 </div>
                 <p className="text-sm text-gray-400 leading-relaxed">{desc}</p>
               </div>

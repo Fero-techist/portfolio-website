@@ -1,5 +1,6 @@
 import React from "react";
 import PortfolioImage from "../assets/image_2_top_right(1).png";
+import PortfolioImage2 from "../assets/ferotech -compress.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
@@ -14,9 +15,7 @@ const Home = () => {
       name="home"
       className="relative w-full min-h-screen flex items-center justify-center pt-28 pb-16 px-6 sm:px-10 lg:px-16 overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white"
     >
-
       <ThreeHeroAnimation />
-
 
       <div className="absolute top-1/4 -left-40 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-1/4 -right-40 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
@@ -33,7 +32,6 @@ const Home = () => {
             Available for full-time roles &amp; contracts
           </div>
 
-
           <h1 className="text-4xl sm:text-6xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight text-white leading-[1.1] mb-6">
             Hi, I'm{" "}
             <span className="bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-500 bg-clip-text text-transparent">
@@ -45,11 +43,18 @@ const Home = () => {
             </span>
           </h1>
 
-
           <p className="text-base sm:text-lg text-gray-300 max-w-2xl leading-relaxed mb-8">
-            Computer Science Graduate passionate about engineering modern, responsive, and user-centric digital experiences. Specializing in frontend architecture with <strong className="text-white font-semibold">React.js</strong>, <strong className="text-white font-semibold">TypeScript</strong>, and <strong className="text-white font-semibold">Tailwind CSS</strong>, with solid backend skills in <strong className="text-white font-semibold">Node.js</strong> and <strong className="text-white font-semibold">Express</strong>.
+            Computer Science Graduate passionate about engineering modern,
+            responsive, and user-centric digital experiences. Specializing in
+            frontend architecture with{" "}
+            <strong className="text-white font-semibold">React.js</strong>,{" "}
+            <strong className="text-white font-semibold">TypeScript</strong>,
+            and{" "}
+            <strong className="text-white font-semibold">Tailwind CSS</strong>,
+            with solid backend skills in{" "}
+            <strong className="text-white font-semibold">Node.js</strong> and{" "}
+            <strong className="text-white font-semibold">Express</strong>.
           </p>
-
 
           <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mb-10 w-full sm:w-auto">
             <Link
@@ -73,7 +78,10 @@ const Home = () => {
               rel="noreferrer"
               className="flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-semibold text-gray-200 hover:text-white bg-slate-900/80 hover:bg-slate-850 border border-slate-700/80 hover:border-slate-600 shadow-md transition-all hover:scale-[1.02] active:scale-[0.98]"
             >
-              <FaFileDownload size={16} className="text-cyan-400" />
+              <FaFileDownload
+                size={16}
+                className="text-cyan-400"
+              />
               <span>Download CV</span>
             </a>
 
@@ -88,9 +96,11 @@ const Home = () => {
             </Link>
           </div>
 
-          {/* Quick Social Links Bar */}
+          
           <div className="flex items-center gap-4 text-gray-400">
-            <span className="text-xs uppercase tracking-wider font-semibold text-gray-400">Connect:</span>
+            <span className="text-xs uppercase tracking-wider font-semibold text-gray-400">
+              Connect:
+            </span>
             <div className="flex items-center gap-3">
               <a
                 href="https://github.com/fero-techist"
@@ -123,9 +133,7 @@ const Home = () => {
 
         <div className="lg:col-span-5 flex justify-center items-center pointer-events-auto">
           <div className="relative group max-w-[340px] sm:max-w-[380px] w-full">
-
             <div className="absolute -inset-1.5 bg-gradient-to-tr from-cyan-500 via-blue-500 to-indigo-600 rounded-3xl blur-lg opacity-40 group-hover:opacity-75 transition duration-500" />
-
 
             <div className="relative rounded-3xl overflow-hidden bg-slate-900 border border-white/10 p-2 shadow-2xl">
               <img
@@ -134,11 +142,14 @@ const Home = () => {
                 className="w-full h-auto object-cover rounded-2xl group-hover:scale-[1.02] transition duration-500"
               />
 
-
               <div className="absolute bottom-5 left-5 right-5 bg-slate-950/80 backdrop-blur-md border border-white/10 rounded-xl p-3 flex items-center justify-between text-xs">
                 <div>
-                  <p className="text-white font-semibold">Oluwaferanmi Adegbola</p>
-                  <p className="text-cyan-400">Full-Stack &amp; Frontend Engineer</p>
+                  <p className="text-white font-semibold">
+                    Oluwaferanmi Adegbola
+                  </p>
+                  <p className="text-cyan-400">
+                    Full-Stack &amp; Frontend Engineer
+                  </p>
                 </div>
                 <div className="flex items-center gap-1.5 px-2 py-1 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-[11px] font-medium">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
@@ -149,7 +160,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
     </section>
   );
 };
