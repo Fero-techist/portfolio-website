@@ -134,7 +134,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        {/* Project Grid */}
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map(({ id, title, description, src, tags, livedemo, github }) => (
             <div
@@ -142,7 +142,7 @@ const Portfolio = () => {
               className="group flex flex-col justify-between rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-cyan-500/40 transition-all duration-300 overflow-hidden shadow-xl shadow-black/20 hover:-translate-y-1"
             >
               <div>
-                {/* Image & Preview Overlay */}
+
                 <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-950">
                   <img
                     src={src}
